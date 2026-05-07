@@ -1,0 +1,46 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+release/
+out/
+*.tsbuildinfo
+
+# Internal / development-only material (not for public repo)
+production/
+.obsidian/
+
+# Environment + local configs
+.env
+.env.local
+.env.*.local
+*.local
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+desktop.ini
+
+# Python (if any utility scripts get added)
+__pycache__/
+*.pyc
+*.pyo
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+session-logs/
+
+# Cache
+.cache/
+.parcel-cache/
+
+# Backup archives -- never commit large zips
+*.zip
