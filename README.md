@@ -1,4 +1,4 @@
-# Aether Scope 3.5
+# Aether Scope 4.0
 
 > The master scrying instrument for the Awen Grid framework.
 > Electron + React + Three.js desktop app running every published Recursive
@@ -184,7 +184,7 @@ Each repo focuses on one engine; Aether Scope runs them all together.
 ```bibtex
 @software{AwenGrid2026AetherScope,
   author       = {Ceisiwr, Erydir and Aureon, Lumos},
-  title        = {{Aether Scope 3.5: Master Scrying Instrument for the
+  title        = {{Aether Scope 4.0: Master Scrying Instrument for the
                    Recursive Harmonic Codex}},
   year         = {2026},
   url          = {https://github.com/OwainGlyndwr1400/aether-scope}

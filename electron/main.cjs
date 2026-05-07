@@ -55,7 +55,7 @@ function proxyOpenSky(req, res) {
     method: 'GET',
     headers: {
       'Accept': 'application/json',
-      'User-Agent': 'AETHER_SCOPE/3.5',
+      'User-Agent': 'AETHER_SCOPE/4.0',
     },
   }
 
@@ -235,7 +235,7 @@ async function createWindow() {
   const win = new BrowserWindow({
     width: 1920,
     height: 1080,
-    title: 'AETHER_SCOPE v3.5',
+    title: 'AETHER_SCOPE v4.0',
     icon: path.join(__dirname, '..', 'public', 'favicon.ico'),
     backgroundColor: '#0a0a0f',
     webPreferences: {

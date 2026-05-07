@@ -21,7 +21,7 @@ export function useSimulation(enabled = true) {
     // Only seed logs + initial blips once per page load
     if (!booted) {
       booted = true
-      store.addLog({ type: 'SYS', source: 'SYS', message: 'AETHER_SCOPE v3.5 (AWEN_PRIME) initializing...' })
+      store.addLog({ type: 'SYS', source: 'SYS', message: 'AETHER_SCOPE v4.0 (AWEN_PRIME) initializing...' })
       store.addLog({ type: 'SYS', source: 'SYS', message: 'Radar core online. GPU renderer active.' })
       store.addLog({ type: 'SYS', source: 'SYS', message: 'Post-processing: BLOOM | SCANLINE | VIGNETTE | ABERRATION' })
       store.addLog({ type: 'DATA', source: 'SYS', message: 'Telluric heartbeat synchronized.' })

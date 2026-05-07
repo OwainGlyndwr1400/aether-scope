@@ -18,7 +18,7 @@ export function exportJSON() {
   const s = useStore.getState()
   const payload = {
     exportTime: new Date().toISOString(),
-    version: 'AETHER_SCOPE v3.5 (AWEN_PRIME)',
+    version: 'AETHER_SCOPE v4.0 (AWEN_PRIME)',
     feedMode: s.feedMode,
     foldAngle: s.foldAngle,
     kelgLock: s.kelgLock,
